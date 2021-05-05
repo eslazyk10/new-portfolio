@@ -11,6 +11,7 @@ export default function Projects(){
         <div className="Projects">
             <section>
                 <h2>Personal Projects </h2>
+                <div className="project-block">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
@@ -47,7 +48,8 @@ export default function Projects(){
                             <h4 className="description"></h4> 
                         </div>
                     </div>
-                    <button><a href="https://jovial-neumann-43490f.netlify.app/" target="_blank">Open Project</a></button>
+                    <button><a href="https://jovial-neumann-43490f.netlify.app/" target="_blank" rel="noreferrer">Open Project</a></button>
+                </div>
                 </div>
             </section>
         </div>

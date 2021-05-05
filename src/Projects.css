@@ -2,7 +2,7 @@
     border-top: 3px dashed #c49e5f;
     margin-top: 45px;
     padding-top: 40px;
-    
+    background-color: rgba(179, 174, 171, 0.5);
 }
 
 .Projects h2{
@@ -23,7 +23,7 @@ button{
     padding: 10px;
     border-radius: 10px;
     background-color: #DDBE86;
-    border: 1px solid #F8F8F6;
+    border: 1px solid #D6D3D1;
     margin-top: 10px;
     margin-bottom: 20px;
 }

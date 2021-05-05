@@ -18,6 +18,7 @@ export default function Intro(){
             </section>
             <section className="skills">
                 <h3>Technologies I use</h3>
+                <div className="tech-block">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-2">
@@ -39,6 +40,7 @@ export default function Intro(){
                             <img src={responsive} alt="" />
                         </div>
                     </div>
+                </div>
                 </div>
             </section>
         </div>
