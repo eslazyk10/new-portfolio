@@ -1,8 +1,12 @@
-.App {
-  text-align: center;
+body{
   background-image: url(/src/images/portfolio\ background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.App {
+  text-align: center;
+  
 }
 
 

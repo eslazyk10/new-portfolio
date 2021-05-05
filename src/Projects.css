@@ -1,0 +1,41 @@
+.Projects{
+    border-top: 3px dashed #c49e5f;
+    margin-top: 45px;
+    padding-top: 40px;
+    
+}
+
+.Projects h2{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 40px;
+}
+
+.Projects img{
+    width: 300px;
+    height: 100%;
+}
+
+.Projects img:hover{
+    filter:blur(5px);
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #DDBE86;
+    border: 1px solid #F8F8F6;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+button:hover{
+    border: 1px solid black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+a:hover{
+    color: black;
+}
