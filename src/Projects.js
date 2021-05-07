@@ -21,7 +21,7 @@ export default function Projects(){
                             <h4 className="description">Created with React framework utilizing responsive design, Bootstrap, CSS for styling and REST API’s for data. Application allows user to search words and provides definition, pronunciation, examples of word, synonyms, and images related to search.</h4> 
                         </div>
                     </div>
-                    <button><a href="https://agitated-pasteur-f0e70a.netlify.app/" target="_blank">Open Project</a></button>
+                    <button><a href="https://agitated-pasteur-f0e70a.netlify.app/" target="_blank" rel="noreferrer">Open Project</a></button>
                     <div className="row">
                         <div className="col-md-6">
                             <img src={weather} alt="React Weather App" />
@@ -30,7 +30,7 @@ export default function Projects(){
                             <h4 className="description">Created with React framework utilizing responsive design, Bootstrap, CSS for styling and REST API’s for data. Application provided user of real-time weather data for searched location and provides 6-day forecast with animated weather icons. </h4> 
                         </div>
                     </div>
-                    <button><a href="https://thirsty-knuth-10e23b.netlify.app/" target="_blank">Open Project</a></button>
+                    <button><a href="https://thirsty-knuth-10e23b.netlify.app/" target="_blank" rel="noreferrer">Open Project</a></button>
                     <div className="row">
                         <div className="col-md-6">
                             <img src={jsweather} alt="Vanilla JS Weather" />
@@ -39,13 +39,13 @@ export default function Projects(){
                             <h4 className="description">Created using JavaScript utilizing Bootstrap and CSS for styling and REST API’s for data. Application provides real-time weather data and 3-hour forecast for either user’s current location or searched city.</h4> 
                         </div>
                     </div>
-                    <button><a href="https://awesome-hopper-f9a643.netlify.app/" target="_blank">Open Project</a></button>
+                    <button><a href="https://awesome-hopper-f9a643.netlify.app/" target="_blank" rel="noreferrer">Open Project</a></button>
                     <div className="row">
                         <div className="col-md-6">
                             <img src={countdown} alt="Vanilla JS Countdown Ad" />
                         </div>
                         <div className="col-md-6">
-                            <h4 className="description"></h4> 
+                            <h4 className="description">Created using JavaScript and Bootstrap and CSS for styling. Mock phone giveaway ad with clock continuously updating and counting down to "giveaway day". Expiration message with be displayed once time runs out.</h4> 
                         </div>
                     </div>
                     <button><a href="https://jovial-neumann-43490f.netlify.app/" target="_blank" rel="noreferrer">Open Project</a></button>
