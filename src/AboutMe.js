@@ -14,32 +14,32 @@ export default function AboutMe(){
         <div className="AboutMe">
             <h2 className="about">About Me</h2>
             <div className="row">
-                <div className="col-sm-5">
+                <div className="col-xl-5">
             <img className="portrait" src={Me} alt="Me"/>
             </div>
-            <div className="col-sm-7 skills">
+            <div className="col-xl-7 skills">
                 <h3>Technologies I use</h3>
                 <div className="tech-block">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-2">
+                        <div className="col-2">
                             <img src={html} alt="" />
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-2">
                             <img src={css} alt="" />
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-2">
                             <img src={js} alt="" />
                         </div>
                         </div>
                         <div className="row">
-                        <div className="col-md-2">
+                        <div className="col-2">
                             <img src={react} alt="" />
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-2">
                             <img src={bootstrap} alt="" />
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-2">
                             <img src={responsive} alt="" />
                         </div>
                     </div>
