@@ -1,7 +1,8 @@
 import Header from "./Header";
 import Intro from "./Intro";
-import AboutMe from "./AboutMe";
+import About from "./About";
 import Projects from "./Projects";
+import {Route, Link} from "react-router-dom";
 import './App.css';
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
     <div className="App">
       <Header />
       <Intro />
-      <AboutMe />
-      <Projects />
+      <About />
+      <Route exact path="/projects" component={Projects} />
     </div>
   );
 }

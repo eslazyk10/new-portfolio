@@ -1,0 +1,24 @@
+.Technology{
+    font-weight: bold;
+    font-family: 'Handlee', cursive;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.container{
+    max-width: 500px;
+}
+h3{
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 18px;
+}
+
+.Technology img {
+    width: 70px;
+    height: 70px;
+    border-radius: 40%;
+    background-color: rgba(179, 174, 171, 0.5);
+    padding: 8px;
+    margin-bottom: 8px;
+}

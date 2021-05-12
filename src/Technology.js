@@ -1,5 +1,5 @@
 import React from "react";
-import Me from "./images/resume-img.jpg";
+
 import bootstrap from "./images/bootstrap-logo.png";
 import css from "./images/CSS-logo.png";
 import react from "./images/React-logo.png";
@@ -7,20 +7,13 @@ import js from "./images/Javascript-logo.png";
 import responsive from "./images/responsive-logo.png";
 import html from "./images/htmlLogo.png";
 
-import "./AboutMe.css";
+import "./Technology.css";
 
-export default function AboutMe(){
+export default function Technology(){
     return(
-        <div className="AboutMe">
-            <h2 className="about">About Me</h2>
-            <div className="row">
-                <div className="col-xl-5">
-            <img className="portrait" src={Me} alt="Me"/>
-            </div>
-            <div className="col-xl-7 skills">
-                <h3>Technologies I use</h3>
-                <div className="tech-block">
+        <div className="Technology">
                 <div className="container">
+                    <h3 className="techHeader">Technologies I use</h3>
                     <div className="row">
                         <div className="col-2">
                             <img src={html} alt="" />
@@ -44,9 +37,6 @@ export default function AboutMe(){
                         </div>
                     </div>
                 </div>
-                </div>
-                </div>
-            </div>
         </div>
     )
 }

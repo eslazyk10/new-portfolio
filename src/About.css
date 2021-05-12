@@ -1,0 +1,67 @@
+@media (min-width:800px) {
+.about-title{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 40px;
+    padding-top: 55px;
+    padding-bottom: 50px;
+}
+}
+@media (max-width:800px) {
+.about-title{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+}
+
+@media (min-width:800px) {
+    .about{
+    padding-right: 100px;
+    padding-left: 100px;
+    flex-wrap: wrap;
+     background-image: linear-gradient(60deg, #BE935F 0%, #F8D8A5 40%, #BE935F 100%);
+}
+    
+    .resume-img{
+    border-radius: 30%;
+    border: 2px dashed #c49e5f;
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 15px;
+}
+
+p{
+    font-size: 18px;
+}
+}
+@media (max-width:800px) {
+    .about{
+    padding-right: 50px;
+    padding-left: 50px;
+    flex-wrap: wrap;
+    background-image: linear-gradient(60deg, #BE935F 0%, #F8D8A5 30%, #BE935F 100%);
+}
+    
+    .resume-img{
+    border-radius: 30%;
+    border: 2px dashed #c49e5f;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 15px;
+}
+
+p{
+    font-size: 12px;
+}
+}
+
+.tech-block{
+    padding: 0;
+}
+
+h3{
+    text-align: center;
+}
