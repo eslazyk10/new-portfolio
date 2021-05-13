@@ -9,7 +9,7 @@ export default function About(){
         <div className="About">
             <h2 className="about-title">About Me</h2>
             <p className="about">
-                <img src={Me} alt="My Photo" className="resume-img"/> 
+                <img src={Me} alt="Me" className="resume-img"/> 
                 My name is <strong>Emily Slazyk</strong>, a recent graduate from SheCodes workshop with focus in Front End Development. 
                 I am skilled in utilizing modern front end technologies including HTML, CSS, Javascript, and React framework. 
                 I enjoy taking on the challenge of learning new things and cracking problems that are difficult to solve.
