@@ -1,0 +1,36 @@
+.about-title {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 50px;
+  margin-bottom: 33px;
+}
+.container {
+  max-width: 1000px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.resume-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 35%;
+
+  margin-right: 13px;
+  margin-bottom: 20px;
+}
+.about {
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 13px;
+}
+@media (min-width: 770px) {
+  .doing-now {
+    font-family: "Fredericka the Great", cursive;
+    font-size: 32px;
+    text-align: left;
+  }
+}
+@media (max-width: 770px) {
+  .doing-now {
+    font-family: "Fredericka the Great", cursive;
+    font-size: 28px;
+    text-align: center;
+  }
+}

@@ -3,10 +3,10 @@ import React from "react";
 export default function Activity(){
     return(
         <div className="Activity">
-            <h3>
+            <h5 className="doing-now">
                 Want to know what I'm up to now?
-            </h3>
-            <p>
+            </h5>
+            <p className="about">
                 Currently I am enrolled in a mini bootcamp through Clarusway learning skills in Python, Git, Linux, and SQL.
                 I am also a volunteer developer with ArdenVent.
                 I primariliy am working in collaboration with UX/UI designers, front-end, and back-end developers to help

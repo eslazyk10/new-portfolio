@@ -1,0 +1,12 @@
+.techHeader {
+  font-family: "Fredericka the Great", cursive;
+  margin-bottom: 36px;
+  font-size: 34px;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 35%;
+  margin-bottom: 8px;
+}
