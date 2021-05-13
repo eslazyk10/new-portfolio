@@ -1,0 +1,27 @@
+.Contact {
+  margin-top: 150px;
+}
+
+.get-in-touch {
+  font-family: "Handlee", cursive;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.how-to-reach {
+  margin-bottom: 65px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.container {
+  margin-bottom: 65px;
+}
+
+.contactLinks {
+  font-size: 64px;
+}
+.contactLinks:hover {
+  color: white;
+}

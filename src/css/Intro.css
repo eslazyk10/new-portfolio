@@ -1,9 +1,14 @@
-.Intro{
-    margin-top: 80px;
-    font-family: 'Handlee', cursive;
+.Intro {
+  margin-top: 100px;
+  font-family: "Handlee", cursive;
+  margin-bottom: 50px;
 }
 
-h1{
-    font-size: 60px;
+h1 {
+  font-size: 68px;
+  margin-bottom: 25px;
 }
 
+.position {
+  font-size: 35px;
+}
