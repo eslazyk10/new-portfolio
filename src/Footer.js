@@ -1,5 +1,7 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+
+import "./Footer.css";
 
 export default function Footer(){
     return(
@@ -9,7 +11,7 @@ export default function Footer(){
                 <li className="router-links"><Link to="/projects">Projects</Link></li>
                 <li className="router-links"><Link to="/contact">Contact</Link></li>
             </ul>
-            <p>
+            <p className="creator">
                 Site by Emily Slazyk
                 <br />
                 <a href="https://github.com/eslazyk10" target="_blank" rel="noreferrer">Open-sourced code available</a>

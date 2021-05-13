@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 export default function Header(){
     return(
         <div className="Header">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
   <div class="container-fluid">
     <Link to="/"><img src={logo} alt="Logo" width="50"/></Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

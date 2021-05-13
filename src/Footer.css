@@ -1,0 +1,31 @@
+.Footer {
+  background-color: black;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 35px;
+  padding-bottom: 25px;
+  font-size: 20px;
+  font-weight: 700;
+}
+li {
+  list-style: none;
+}
+.router-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.creator a {
+  color: white;
+  text-decoration: none;
+}
+.creator a:hover {
+  text-decoration: underline;
+}
