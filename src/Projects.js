@@ -5,7 +5,7 @@ import jsweather from "./images/vanilla-weather.png";
 import countdown from "./images/vanilla-countdown.png";
 import Footer from "./Footer";
 
-import "./Projects.css";
+import "./css/Projects.css";
 
 export default function Projects(){
     return(

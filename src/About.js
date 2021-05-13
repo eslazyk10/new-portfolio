@@ -3,7 +3,7 @@ import Me from "./images/resume-img.jpg";
 import Technology from "./Technology";
 import Activity from "./Activity";
 
-import "./About.css";
+import "./css/About.css";
 
 export default function About(){
     return(

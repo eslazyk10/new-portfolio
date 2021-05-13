@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 
+import "./css/Contact.css";
 
 export default function Contact(){
     return(

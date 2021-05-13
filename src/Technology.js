@@ -7,7 +7,7 @@ import js from "./images/Javascript-logo.png";
 import responsive from "./images/responsive-logo.png";
 import html from "./images/htmlLogo.png";
 
-import "./Technology.css";
+import "./css/Technology.css";
 
 export default function Technology(){
     return(

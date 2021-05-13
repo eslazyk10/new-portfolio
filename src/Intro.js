@@ -1,7 +1,7 @@
 import React from "react";
 
 
-import "./Intro.css";
+import "./css/Intro.css";
 
 export default function Intro(){
     return(
