@@ -12,7 +12,7 @@ export default function Footer(){
             <p>
                 Site by Emily Slazyk
                 <br />
-                <a href="https://github.com/eslazyk10" target="_blank">Open-sourced code available</a>
+                <a href="https://github.com/eslazyk10" target="_blank" rel="noreferrer">Open-sourced code available</a>
             </p>
         </div>
     );

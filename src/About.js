@@ -1,6 +1,7 @@
 import React from "react";
 import Me from "./images/resume-img.jpg";
 import Technology from "./Technology";
+import Activity from "./Activity";
 
 import "./About.css";
 
@@ -18,6 +19,7 @@ export default function About(){
                 I currently reside in Nashville, TN and am open to both local and remote opportunities. 
                 Feel free to take a look at my work through GitHub or my projects page! 
             </p>
+            <Activity />
             <br />
             <Technology />
         </div>
