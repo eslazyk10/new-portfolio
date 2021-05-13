@@ -33,7 +33,8 @@
     background-color: red;
     border-radius: 10%;
     padding: 20px;
-    font-size: 24px;
+    font-size: 22px;
+    font-family: "RocknRoll One", sans-serif;
   }
 }
 @media (max-width: 992px) {
@@ -43,6 +44,7 @@
     border-radius: 10%;
     padding: 14px;
     font-size: 16px;
+    font-family: "RocknRoll One", sans-serif;
   }
 }
 
