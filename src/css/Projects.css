@@ -12,6 +12,10 @@
   margin-bottom: 90px;
 }
 
+.slide-info {
+  background-color: black;
+}
+
 @media (min-width: 770px) {
   .c-img {
     width: 700px;

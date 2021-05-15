@@ -3,7 +3,7 @@ import dictionary from "./images/react-dictionary.png";
 import weather from "./images/react-weather.png";
 import jsweather from "./images/vanilla-weather.png";
 import counter from "./images/vanilla-countdown.png";
-import { Carousel } from "react-bootstrap";
+import { Carousel, Card } from "react-bootstrap";
 import Footer from "./Footer";
 
 import "./css/Projects.css";
@@ -22,8 +22,10 @@ export default function Projects(){
                         alt="First slide"
                     />
                     <Carousel.Caption className="c-caption">
+                        <Card className="slide-info">
                         <h3>First slide label</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </Card>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -32,9 +34,11 @@ export default function Projects(){
                         src={ weather }
                         alt="Second slide"
                     />
-                    <Carousel.Caption className="c-caption">
+                        <Carousel.Caption className="c-caption">
+                        <Card className="slide-info">
                         <h3>Second slide label</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </Card>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -44,8 +48,10 @@ export default function Projects(){
                         alt="Third slide"
                     />
                     <Carousel.Caption className="c-caption">
+                        <Card className="slide-info">
                         <h3>Third slide label</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        </Card>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -55,8 +61,10 @@ export default function Projects(){
                         alt="Fourth slide"
                     />
                     <Carousel.Caption className="c-caption">
+                        <Card className="slide-info">
                         <h3>Fourth slide label</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        </Card>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
