@@ -6,6 +6,7 @@ import react from "./images/React-logo.png";
 import js from "./images/Javascript-logo.png";
 import responsive from "./images/responsive-logo.png";
 import html from "./images/htmlLogo.png";
+import { Card } from "react-bootstrap";
 
 import "./css/Technology.css";
 
@@ -13,7 +14,8 @@ export default function Technology(){
     return(
         <div className="Technology">
             <div className="container">
-            <h3 className="techHeader">Technologies I use</h3>
+            <Card className="tech-card">
+            <h3 className="techHeader">Technologies I know</h3>
                 <div className="container-around-tech">        
                     <div className="row">
                         <div className="col">
@@ -35,7 +37,8 @@ export default function Technology(){
                             <img src={responsive} alt="" className="tech-img" />
                         </div>
                     </div>
-                </div>
+                    </div>
+                </Card>
             </div>
         </div>
     )

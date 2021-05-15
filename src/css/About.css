@@ -1,36 +1,73 @@
 .about-title {
   font-family: "Fredericka the Great", cursive;
   font-size: 50px;
-  margin-bottom: 33px;
+  margin-bottom: 37px;
 }
-.container {
-  max-width: 1000px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-.resume-img {
-  width: 250px;
-  height: 250px;
-  border-radius: 35%;
 
-  margin-right: 13px;
-  margin-bottom: 20px;
+@media (min-width: 1000px) {
+  .home-card {
+    background-color: rgba(252, 252, 252, 0.7);
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+  }
 }
+@media (max-width: 1000px) {
+  .home-card {
+    background-color: rgba(252, 252, 252, 0.7);
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 720px) {
+  .resume-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 35%;
+    float: left;
+    margin-right: 13px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 720px) {
+  .resume-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+
 .about {
   font-family: "RocknRoll One", sans-serif;
   font-size: 13px;
 }
-@media (min-width: 770px) {
+@media (min-width: 1325px) {
   .doing-now {
     font-family: "Fredericka the Great", cursive;
     font-size: 32px;
     text-align: left;
   }
 }
-@media (max-width: 770px) {
+@media (max-width: 1325px) {
   .doing-now {
     font-family: "Fredericka the Great", cursive;
-    font-size: 28px;
+    font-size: 30px;
     text-align: center;
+  }
+}
+
+@media (min-width: 400px) {
+  .about {
+    font-size: 13px;
+  }
+}
+@media (max-width: 400px) {
+  .about {
+    font-size: 10px;
   }
 }
