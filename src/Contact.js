@@ -1,13 +1,17 @@
 import React from "react";
 import Footer from "./Footer";
+import { Card } from "react-bootstrap";
 
 import "./css/Contact.css";
 
 export default function Contact(){
     return(
         <div className="Contact">
-            <h1 className="get-in-touch">🙋‍♀️Let's get in touch</h1>
+            <h1 className="team-up">Wanna team up?</h1>
+            <Card className="contact-card">
+            <h2 className="get-in-touch">🙋‍♀️Let's get in touch</h2>
             <h3 className="how-to-reach">You can reach me through any of the links below!</h3>
+            </Card>
             <div className="container">
                 <div className="row">
                     <div className="col">
