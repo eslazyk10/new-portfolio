@@ -2,7 +2,7 @@ import Header from "./Header";
 import Home from "./Home"
 import Projects from "./Projects";
 import Contact from "./Contact";
-import {Route} from "react-router-dom";
+import { Route } from "react-router-dom";
 import './css/App.css';
 
 function App() {

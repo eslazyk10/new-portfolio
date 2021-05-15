@@ -1,3 +1,7 @@
+body {
+  background-image: url(/src/images/splatter-background-4.jpg);
+}
+
 .App {
   text-align: center;
 }

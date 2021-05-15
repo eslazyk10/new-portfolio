@@ -17,22 +17,22 @@ export default function Technology(){
                 <div className="container-around-tech">        
                     <div className="row">
                         <div className="col">
-                            <img src={html} alt="" />
+                            <img src={html} alt="" className="tech-img" />
                         </div>
                         <div className="col">
-                            <img src={css} alt="" />
+                            <img src={css} alt="" className="tech-img" />
                         </div>
                         <div className="col">
-                            <img src={js} alt="" />
+                            <img src={js} alt="" className="tech-img" />
                         </div>
                         <div className="col">
-                            <img src={react} alt="" />
+                            <img src={react} alt="" className="tech-img" />
                         </div>
                         <div className="col">
-                            <img src={bootstrap} alt="" />
+                            <img src={bootstrap} alt="" className="tech-img" />
                         </div>
                         <div className="col">
-                            <img src={responsive} alt="" />
+                            <img src={responsive} alt="" className="tech-img" />
                         </div>
                     </div>
                 </div>
