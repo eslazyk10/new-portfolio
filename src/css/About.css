@@ -1,7 +1,9 @@
 .about-title {
   font-family: "Fredericka the Great", cursive;
   font-size: 50px;
-  margin-bottom: 37px;
+  padding-top: 15px;
+  color: #1e2337;
+  font-weight: 600;
 }
 
 @media (min-width: 1000px) {
@@ -12,7 +14,7 @@
     margin: 0 auto;
     padding: 10px;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 5px rgba(95, 112, 134, 0.6);
   }
 }
 @media (max-width: 1000px) {
@@ -23,7 +25,7 @@
     margin: 0 auto;
     padding: 10px;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 5px rgba(95, 112, 134, 0.6);
   }
 }
 
@@ -57,6 +59,8 @@
     font-family: "Fredericka the Great", cursive;
     font-size: 32px;
     text-align: left;
+    color: #5f7086;
+    font-weight: 600;
   }
 }
 @media (max-width: 1325px) {
@@ -64,6 +68,8 @@
     font-family: "Fredericka the Great", cursive;
     font-size: 30px;
     text-align: center;
+    color: #5f7086;
+    font-weight: 600;
   }
 }
 

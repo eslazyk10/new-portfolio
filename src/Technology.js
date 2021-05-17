@@ -10,6 +10,7 @@ import python from "./images/python-icon.png";
 import node from "./images/node-icon.png";
 import linux from "./images/linux-icon.png";
 import redux from "./images/Redux-icon.png";
+import sql from "./images/sql-icon.jpg";
 import { Card } from "react-bootstrap";
 
 import "./css/Technology.css";
@@ -57,6 +58,9 @@ export default function Technology(){
                         </div>
                         <div className="col">
                             <img src={redux} alt="" className="tech-img" />
+                        </div>
+                        <div className="col">
+                            <img src={sql} alt="" className="tech-img" />
                         </div>
                     </div>
                 </Card>

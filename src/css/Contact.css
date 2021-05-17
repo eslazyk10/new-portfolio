@@ -7,6 +7,7 @@
     margin-bottom: 60px;
     font-family: "Rock Salt", cursive;
     font-size: 60px;
+    color: #5f7086;
   }
 }
 @media (max-width: 400px) {
@@ -14,6 +15,7 @@
     margin-bottom: 60px;
     font-family: "Rock Salt", cursive;
     font-size: 44px;
+    color: #5f7086;
   }
 }
 
@@ -24,7 +26,7 @@
     width: 70%;
     display: block;
     margin: 0 auto;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 5px rgba(95, 112, 134, 0.6);
     border-radius: 15px;
   }
 }
@@ -35,7 +37,7 @@
     width: 90%;
     display: block;
     margin: 0 auto;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 5px rgba(95, 112, 134, 0.6);
     border-radius: 15px;
   }
 }
@@ -71,7 +73,9 @@
 
 .contactLinks {
   font-size: 64px;
+  color: #5f7086;
 }
 .contactLinks:hover {
-  color: white;
+  font-size: 67px;
+  color: #96aac5;
 }
