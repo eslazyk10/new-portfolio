@@ -15,9 +15,9 @@ export default function Header(){
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <span className="navbar-links"><Link to="/" style={{color: 'black', paddingLeft: 15, textDecoration: 'none'}}>Home</Link></span>
-        <span className="navbar-links"><Link to="/projects" style={{color: 'black', paddingLeft: 15, textDecoration: 'none'}}>Projects</Link></span>
-        <span className="navbar-links"><Link to="/contact" style={{color: 'black', paddingLeft: 15, textDecoration: 'none'}}>Contact</Link></span>
+        <span className="navbar-links"><Link to="/" style={{color: '#5f7086', paddingLeft: 15, textDecoration: 'none'}}>Home</Link></span>
+        <span className="navbar-links"><Link to="/projects" style={{color: '#5f7086', paddingLeft: 15, textDecoration: 'none'}}>Projects</Link></span>
+        <span className="navbar-links"><Link to="/contact" style={{color: '#5f7086', paddingLeft: 15, textDecoration: 'none'}}>Contact</Link></span>
       </div>
     </div>
   </div>
