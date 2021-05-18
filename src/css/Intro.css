@@ -18,11 +18,13 @@ h1 {
   .position {
     font-size: 45px;
     margin-bottom: 20px;
+    font-weight: 600;
   }
 }
 @media (max-width: 488px) {
   .position {
     font-size: 30px;
     margin-bottom: 20px;
+    font-weight: 600;
   }
 }
